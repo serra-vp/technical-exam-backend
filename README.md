@@ -1,1 +1,44 @@
-# yondu-technical-backend
+# API Backend Node.js Diagnostic Exam
+
+
+#### Application pre-requisites:
+[XAMPP Control Panel](https://www.apachefriends.org/download.html)
+[Visual Studio Code](https://code.visualstudio.com/)
+[Node.js](https://nodejs.org/en/download/)
+
+## Installation
+1. Install the dependencies and devDependencies
+2. Open xampp and start `mysql` server
+3. Open this repository with `Visual Studio Code`
+```sh
+npm i
+npm run setup-db
+npm start
+```
+
+### Features - Routes
+1. Add a new user - `/users/create-user`
+2. Edit a user - `/users/update-user`
+3. Delete a user - `/users/delete-user?id=`
+4. View list of all users in the system - `/users/`
+5. View a User - `/users/6`
+5. Delete multiple users to be removed - `/users/delete-multiple-user?users_id=`
+6. Login - `/authenticate/login`
+
+
+## Tech
+
+Dillinger uses a number of open source projects to work properly:
+
+- [node.js] - evented I/O for the backend
+- [Express] - fast node.js network app framework
+- [jsonwebtoken] - data encryption for session package
+- [Argon2] - password hasher package
+- [knex] - database migration package
+- [mysql2] - MYSQL package for nodejs
+
+
+
+
+
+
