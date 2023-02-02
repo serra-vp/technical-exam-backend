@@ -10,6 +10,8 @@
 1. Install the dependencies and devDependencies
 2. Open xampp and start `mysql` server
 3. Open this repository with `Visual Studio Code`
+4. Rename the `.env.sample` to `.env`
+5. Then run these scripts below:
 ```sh
 npm i
 npm run setup-db
