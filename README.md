@@ -5,6 +5,7 @@
 [XAMPP Control Panel](https://www.apachefriends.org/download.html)
 [Visual Studio Code](https://code.visualstudio.com/)
 [Node.js](https://nodejs.org/en/download/)
+[Postman] ()
 
 ## Installation
 1. Install the dependencies and devDependencies
@@ -17,6 +18,15 @@ npm i
 npm run setup-db
 npm start
 ```
+6. Open Postman, create the http request for login before requesting other routes and after logging in, copy the token. 
+  Dont forget to add the bearer token before doing a http request.
+  -Auth -> Type[' Bearer Token '] -> token will be on login
+
+Sample User and password
+`
+  "username":"vpserra",
+  "password": "Test123"
+`
 
 ### Features - Routes
 1. Add a new user - `/users/create-user`
